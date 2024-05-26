@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-25T20:25:49 CDT" name="Data Driven Testing Using Excel" finished-at="2024-05-25T20:25:56 CDT" duration-ms="7568">
+    <groups>
+    </groups>
+    <test started-at="2024-05-25T20:25:49 CDT" name="Test" finished-at="2024-05-25T20:25:56 CDT" duration-ms="7568">
+      <class name="com.testautomation.apitesting.tests.DataDrivenTestingUsingExcel">
+        <test-method signature="dataDrivenTesting(java.util.Map)[pri:0, instance:com.testautomation.apitesting.tests.DataDrivenTestingUsingExcel@4b520ea8]" started-at="2024-05-25T20:25:49 CDT" name="dataDrivenTesting" data-provider="excelTestData" finished-at="2024-05-25T20:25:53 CDT" duration-ms="3253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=API Testing, LastName=Tester, Run=Yes, TotalPrize=1000}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenTesting -->
+        <test-method signature="dataDrivenTesting(java.util.Map)[pri:0, instance:com.testautomation.apitesting.tests.DataDrivenTestingUsingExcel@4b520ea8]" started-at="2024-05-25T20:25:53 CDT" name="dataDrivenTesting" data-provider="excelTestData" finished-at="2024-05-25T20:25:55 CDT" duration-ms="1903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=Postman, LastName=Talk, Run=Yes, TotalPrize=2000}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenTesting -->
+        <test-method signature="dataDrivenTesting(java.util.Map)[pri:0, instance:com.testautomation.apitesting.tests.DataDrivenTestingUsingExcel@4b520ea8]" started-at="2024-05-25T20:25:55 CDT" name="dataDrivenTesting" data-provider="excelTestData" finished-at="2024-05-25T20:25:56 CDT" duration-ms="1832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=RestAssured, LastName=Testers, Run=Yes, TotalPrize=3000}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenTesting -->
+      </class> <!-- com.testautomation.apitesting.tests.DataDrivenTestingUsingExcel -->
+    </test> <!-- Test -->
+  </suite> <!-- Data Driven Testing Using Excel -->
+</testng-results>

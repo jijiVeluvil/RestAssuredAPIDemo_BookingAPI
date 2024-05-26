@@ -1,0 +1,104 @@
+2024-05-24T19:51:16,444 [main] INFO  (AllureReportGeneration.java:31) - End to End test execution started...
+2024-05-24T20:09:13,872 [main] INFO  (AllureReportGeneration.java:38) - End to End test execution started...
+2024-05-24T20:09:15,495 [main] INFO  (RestAssuredListener.java:21) - 
+Method=> POST
+URI=> https://restful-booker.herokuapp.com/booking
+RequestBody=> {
+    "firstname": "api-testing",
+    "lastname": "tutorial",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-03-01",
+        "checkout": "2024-09-01"
+    },
+    "additionalneeds": "Breakfast"
+}
+ResponseBody=> {
+    "bookingid": 3357,
+    "booking": {
+        "firstname": "api-testing",
+        "lastname": "tutorial",
+        "totalprice": 111,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-03-01",
+            "checkout": "2024-09-01"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+2024-05-24T20:09:15,831 [main] INFO  (RestAssuredListener.java:21) - 
+Method=> GET
+URI=> https://restful-booker.herokuapp.com/booking/3357
+RequestBody=> null
+ResponseBody=> {
+    "firstname": "api-testing",
+    "lastname": "tutorial",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-03-01",
+        "checkout": "2024-09-01"
+    },
+    "additionalneeds": "Breakfast"
+}
+2024-05-24T20:09:16,054 [main] INFO  (RestAssuredListener.java:21) - 
+Method=> POST
+URI=> https://restful-booker.herokuapp.com/auth
+RequestBody=> {
+   "username":"admin",
+   "password":"password123"
+  
+}
+ResponseBody=> {
+    "token": "2c24a2b8fddc5b1"
+}
+2024-05-24T20:09:16,296 [main] INFO  (RestAssuredListener.java:21) - 
+Method=> PUT
+URI=> https://restful-booker.herokuapp.com/booking/3357
+RequestBody=> {
+    "firstname": "spec-flow",
+    "lastname": "selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-03-01",
+        "checkout": "2024-09-01"
+    },
+    "additionalneeds": "super bowl"
+}
+ResponseBody=> {
+    "firstname": "spec-flow",
+    "lastname": "selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-03-01",
+        "checkout": "2024-09-01"
+    },
+    "additionalneeds": "super bowl"
+}
+2024-05-24T20:09:17,190 [main] INFO  (RestAssuredListener.java:21) - 
+Method=> PATCH
+URI=> https://restful-booker.herokuapp.com/booking/3357
+RequestBody=> {
+  "firstname":"Testers Talk"
+}
+ResponseBody=> {
+    "firstname": "Testers Talk",
+    "lastname": "selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-03-01",
+        "checkout": "2024-09-01"
+    },
+    "additionalneeds": "super bowl"
+}
+2024-05-24T20:09:17,434 [main] INFO  (RestAssuredListener.java:21) - 
+Method=> DELETE
+URI=> https://restful-booker.herokuapp.com/booking/3357
+RequestBody=> null
+ResponseBody=> Created
+2024-05-24T20:09:17,435 [main] INFO  (AllureReportGeneration.java:141) - End to End test execution started...

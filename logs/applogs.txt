@@ -1,0 +1,84 @@
+2024-05-25T20:25:53,108 [main] INFO  (RestAssuredListener.java:21) - 
+Method=> POST
+URI=> https://restful-booker.herokuapp.com/booking
+RequestBody=> {
+  "firstname" : "API Testing",
+  "lastname" : "Tester",
+  "additionalneeds" : "Breakfast",
+  "totalprice" : 1000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-03-01",
+    "checkout" : "2024-09-01"
+  }
+}
+ResponseBody=> {
+    "bookingid": 2099,
+    "booking": {
+        "firstname": "API Testing",
+        "lastname": "Tester",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-03-01",
+            "checkout": "2024-09-01"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+2024-05-25T20:25:55,099 [main] INFO  (RestAssuredListener.java:21) - 
+Method=> POST
+URI=> https://restful-booker.herokuapp.com/booking
+RequestBody=> {
+  "firstname" : "Postman",
+  "lastname" : "Talk",
+  "additionalneeds" : "Breakfast",
+  "totalprice" : 2000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-03-01",
+    "checkout" : "2024-09-01"
+  }
+}
+ResponseBody=> {
+    "bookingid": 2123,
+    "booking": {
+        "firstname": "Postman",
+        "lastname": "Talk",
+        "totalprice": 2000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-03-01",
+            "checkout": "2024-09-01"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+2024-05-25T20:25:56,941 [main] INFO  (RestAssuredListener.java:21) - 
+Method=> POST
+URI=> https://restful-booker.herokuapp.com/booking
+RequestBody=> {
+  "firstname" : "RestAssured",
+  "lastname" : "Testers",
+  "additionalneeds" : "Breakfast",
+  "totalprice" : 3000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-03-01",
+    "checkout" : "2024-09-01"
+  }
+}
+ResponseBody=> {
+    "bookingid": 2139,
+    "booking": {
+        "firstname": "RestAssured",
+        "lastname": "Testers",
+        "totalprice": 3000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-03-01",
+            "checkout": "2024-09-01"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
